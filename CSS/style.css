@@ -9,6 +9,11 @@ h1 {
     font-size: 65px;
 }
 
+.subh2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
 ul {
     display: flex;
     justify-content: space-between;
