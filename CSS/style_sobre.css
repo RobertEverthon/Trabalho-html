@@ -1,3 +1,40 @@
+
+
+@font-face {
+    font-family: textos;
+    src: url(Lato-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: font_menu;
+    src: url(BebasNeue-Regular.ttf);
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(91, 2, 151);
+    font-size: 27px;
+    font-family: font_menu;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+p {
+    font-family: textos;
+    font-size: 23px;
+}
+
+h1 {
+    font-size: 45px;
+}
+
 body {
     color: white;
     background-color: rgb(13, 20, 31);
