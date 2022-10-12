@@ -4,6 +4,30 @@
     box-sizing:border-box;
 }
 
+@font-face {
+    font-family: fonte_menu;
+    src: url(BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: font_welcome;
+    src: url(Lato-BlackItalic.ttf);
+}
+
+@font-face {
+    font-family: font_tecnews;
+    src: url(CocogooseProItalic-trial.ttf);
+}
+
+@font-face {
+    font-family: textos;
+    src: url(Lato-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: title_text;
+    src: url(Lato-Black.ttf);
+}
 
 body {
     color: white;
@@ -11,16 +35,26 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.tecnews {
-    text-align: center;
-    font-size: 65px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(8, 230, 100);
+p {
+    font-family: textos;
+    font-size: 23px;
 }
 
-.subh2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+h2, h3 {
+    font-family: title_text;
+    font-size: 30px;
+}
+.tecnews {
     text-align: center;
+    font-size: 90px;
+    color: rgb(8, 230, 100);
+    font-family: font_tecnews;
+}
+
+.welcome {
+    font-family: font_welcome;
+    text-align: center;
+    font-size: 30px;
 }
 
 .menu1 {
@@ -30,7 +64,8 @@ body {
     align-items: center;
     padding: 10px;
     background-color: rgb(91, 2, 151);
-    font-size: 22px;
+    font-size: 27px;
+    font-family: fonte_menu;
 }
 
 a {
