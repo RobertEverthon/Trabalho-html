@@ -1,3 +1,10 @@
+<!--*{-->
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+
 body {
     color: white;
     background-color: rgb(13, 20, 31);
@@ -8,6 +15,7 @@ body {
     text-align: center;
     font-size: 65px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(8, 230, 100);
 }
 
 .subh2 {
@@ -15,13 +23,13 @@ body {
     text-align: center;
 }
 
-ul {
+.menu1 {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
     align-items: center;
     padding: 10px;
-    background-color: rgb(128, 0, 79);
+    background-color: rgb(91, 2, 151);
     font-size: 22px;
 }
 
