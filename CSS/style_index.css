@@ -1,0 +1,73 @@
+@font-face {
+    font-family: fonte_menu;
+    src: url(BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: font_welcome;
+    src: url(Lato-BlackItalic.ttf);
+}
+
+@font-face {
+    font-family: font_tecnews;
+    src: url(CocogooseProItalic-trial.ttf);
+}
+
+@font-face {
+    font-family: textos;
+    src: url(Lato-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: title_text;
+    src: url(Lato-Black.ttf);
+}
+
+body {
+    color: white;
+    background-color: rgb(13, 20, 31);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: textos;
+    font-size: 23px;
+}
+
+h2, h3 {
+    font-family: title_text;
+    font-size: 30px;
+}
+
+.tecnews {
+    text-align: center;
+    font-size: 90px;
+    color: rgb(8, 230, 100);
+    font-family: font_tecnews;
+}
+
+.welcome {
+    font-family: font_welcome;
+    text-align: center;
+    font-size: 30px;
+}
+
+.menu1 {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(91, 2, 151);
+    font-size: 27px;
+    font-family: fonte_menu;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.centralizar {
+    text-align: center;
+}
