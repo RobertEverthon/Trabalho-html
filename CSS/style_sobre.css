@@ -27,6 +27,7 @@ a {
 p {
     font-family: textos;
     font-size: 23px;
+    text-indent: 35px;
 }
 
 h1 {
@@ -35,6 +36,7 @@ h1 {
 
 h2 {
     color: rgb(8, 230, 100);
+    text-indent: 35px;
 }
 
 body {
