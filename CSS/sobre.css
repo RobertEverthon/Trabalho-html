@@ -39,10 +39,6 @@ a {
 a:hover{
     background-color: rgb(64, 1, 105);
 }
-.conteudo{
-    padding-bottom: 10%;
-    margin:5%;
-}
 
 h1 {
     font-size: 45px;
@@ -64,10 +60,6 @@ p {
     font-size: 23px;
     text-indent: 35px;
 }
-
-
-
-
 
 .robo{
     text-align: center;
