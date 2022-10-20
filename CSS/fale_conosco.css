@@ -8,6 +8,11 @@
     src: url(BebasNeue-Regular.ttf);
 }
 
+*{
+    padding: 0;
+    margin: 0;
+}
+
 body {
     color: white;
     background-color: rgb(13, 20, 31);
@@ -30,15 +35,38 @@ h1 {
 }
 
 a {
+    display: inline-block;
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
-p {
-    font-family: textos;
-    font-size: 23px;
+a:hover{
+    background-color: rgb(64, 1, 105);
 }
 
 .centralizar {
     text-align: center;
+}
+
+div {
+    margin: 10%;
+}
+
+div h1{
+    text-align: left;
+    margin-bottom: 4%;
+    font-size: 50px;
+    margin-bottom: 3%;
+}
+
+div p {
+    font-family: textos;
+    font-size: 23px;
+    text-align: left;
+    text-align: justify;
+    margin-bottom: 1%;
+}
+
+div hr {
+    margin-bottom: 23px;
 }

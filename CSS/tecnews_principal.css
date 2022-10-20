@@ -43,11 +43,12 @@ body {
     font-size: 27px;
     font-family: fonte_menu;
 }
-li{
+
+li {
     display: inline;
 }
 
-a{
+a {
     display: inline-block;
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -55,8 +56,7 @@ a{
 }
 
 a:hover{
-    background-color: aqua;
-
+    background-color: rgb(64, 1, 105);
 }
 
 .tecnews {
@@ -66,14 +66,17 @@ a:hover{
     color: rgb(8, 230, 100);
     font-family: font_tecnews;
 }
+
 .welcome {
     font-family: font_welcome;
     text-align: center;
     font-size: 30px;
 }
+
 .centr-img1 {
     text-align: center;
 }
+
 div{
     margin: 10%;
 }
@@ -92,10 +95,10 @@ div h3{
     font-family: title_text;
     font-size: 30px;
 }
+
 p {
     font-family: textos;
     font-size: 23px;
     text-align: left;
     text-align: justify;
 }
-

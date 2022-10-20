@@ -20,8 +20,13 @@
 }
 
 a {
+    display: inline-block;
     color: rgb(255, 255, 255);
     text-decoration: none;
+}
+
+a:hover{
+    background-color: rgb(64, 1, 105);
 }
 
 p {
