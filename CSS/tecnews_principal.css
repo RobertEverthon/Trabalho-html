@@ -63,7 +63,9 @@ a:hover{
     text-align: center;
 }
 
-h2 h3 {
+h2, h3 {
+    margin-bottom: 2%;
+    margin-top: 2%;
     font-family: title_text;
     font-size: 30px;
 }
