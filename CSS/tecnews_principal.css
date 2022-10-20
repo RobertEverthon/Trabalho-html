@@ -29,14 +29,48 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.menu1 {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    background-color: rgb(91, 2, 151);
+    font-size: 27px;
+    font-family: fonte_menu;
+}
+li{
+    display: inline;
+}
+
+a{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding:10px;
+}
+
+a:hover{
+    background-color: aqua;
+
+}
+
+.centralizar {
+    text-align: center;
+}
+
+h2 h3 {
+    font-family: title_text;
+    font-size: 30px;
+}
+
 p {
     font-family: textos;
     font-size: 23px;
-}
-
-h2, h3 {
-    font-family: title_text;
-    font-size: 30px;
 }
 
 .tecnews {
@@ -50,24 +84,4 @@ h2, h3 {
     font-family: font_welcome;
     text-align: center;
     font-size: 30px;
-}
-
-.menu1 {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    align-items: center;
-    padding: 10px;
-    background-color: rgb(91, 2, 151);
-    font-size: 27px;
-    font-family: fonte_menu;
-}
-
-a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-}
-
-.centralizar {
-    text-align: center;
 }
