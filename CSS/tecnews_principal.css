@@ -34,7 +34,7 @@ body {
     margin: 0;
 }
 
-.menu1 {
+.menu {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
