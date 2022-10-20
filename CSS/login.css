@@ -38,6 +38,7 @@ input{
     font-family: textos;
     outline: none;
 }
+
 button{
     margin-top: 8%;
     padding: 10px;
@@ -51,9 +52,11 @@ button{
     cursor: pointer;
     font-size: 20px;
 }
+
 p{
     text-align: center;
 }
+
 a {
     color: rgb(0, 0, 0);
     text-decoration: none;
