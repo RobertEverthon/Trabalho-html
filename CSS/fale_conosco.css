@@ -4,41 +4,70 @@
 }
 
 @font-face {
-    font-family: font_menu;
+    font-family: fonte_menu;
     src: url(BebasNeue-Regular.ttf);
 }
 
-body {
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
     color: white;
     background-color: rgb(13, 20, 31);
     font-family: Arial, Helvetica, sans-serif;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    background-color: rgb(91, 2, 151);
+    font-size: 27px;
+    font-family: fonte_menu;
+}
+
+a{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding:10px;
+}
+
+a:hover{
+    background-color: rgb(64, 1, 105);
+}
+
+.cont-fale{
+    margin: 10%;
+    margin-top: 5%;
 }
 
 h1 {
     font-size: 45px;
 }
 
-.menu {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    align-items: center;
-    padding: 10px;
-    background-color: rgb(91, 2, 151);
-    font-size: 27px;
-    font-family: font_menu;
+h1{
+    text-align: left;
+    margin-bottom: 4%;
+    font-size: 45px;
+    margin-bottom: 3%;
 }
 
-a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-}
-
-p {
+p{
     font-family: textos;
     font-size: 23px;
+    text-align: left;
+    text-align: justify;
+    margin-bottom: 1%;
 }
 
-.centralizar {
+hr{
+    margin-bottom: 23px;
+}
+
+.robo {
     text-align: center;
+
 }

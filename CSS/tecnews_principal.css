@@ -43,11 +43,12 @@ body {
     font-size: 27px;
     font-family: fonte_menu;
 }
-li{
+
+li {
     display: inline;
 }
 
-a{
+a {
     display: inline-block;
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -55,27 +56,32 @@ a{
 }
 
 a:hover{
-    background-color: aqua;
-
+    background-color: rgb(64, 1, 105);
 }
 
 .tecnews {
-    margin-top: 2%;
+    margin-top: 5%;
     text-align: center;
     font-size: 90px;
     color: rgb(8, 230, 100);
     font-family: font_tecnews;
 }
+
 .welcome {
     font-family: font_welcome;
     text-align: center;
     font-size: 30px;
+    margin-top: 2%;
 }
+
 .centr-img1 {
     text-align: center;
+    margin: 30px;
 }
+
 div{
     margin: 10%;
+    margin-top: 30px;
 }
 
 div h2{
@@ -85,17 +91,29 @@ div h2{
     font-size: 30px;
 }
 
-div h3{
+div h3 {
     text-align: left;
-    margin-bottom: 4%;
+    margin-bottom: 2%;
     margin-top: 4%;
     font-family: title_text;
-    font-size: 30px;
+    font-size: 45px;
 }
+
+div h4 {
+    margin-bottom: 4%;
+    margin-top: 1%;
+    font-size: 20px;
+
+}
+
 p {
     font-family: textos;
     font-size: 23px;
     text-align: left;
     text-align: justify;
+    margin-top: 2%;
 }
 
+.ransomware {
+    text-align: center;
+}
