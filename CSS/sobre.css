@@ -4,8 +4,22 @@
 }
 
 @font-face {
-    font-family: font_menu;
+    font-family: fonte_menu;
     src: url(BebasNeue-Regular.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    margin: 10%;
+    margin-top: 5%;
+}
+
+div hr {
+    margin-bottom: 23px;
 }
 
 .menu {
@@ -13,16 +27,16 @@
     justify-content: space-between;
     list-style-type: none;
     align-items: center;
-    padding: 10px;
     background-color: rgb(91, 2, 151);
     font-size: 27px;
-    font-family: font_menu;
+    font-family: fonte_menu;
 }
 
 a {
     display: inline-block;
     color: rgb(255, 255, 255);
     text-decoration: none;
+    padding:10px;
 }
 
 a:hover{
@@ -35,13 +49,15 @@ p {
     text-indent: 35px;
 }
 
-h1 {
+div h1 {
     font-size: 45px;
+    margin-bottom: 23px;
 }
 
-h2 {
+div h2 {
     color: rgb(8, 230, 100);
     text-indent: 35px;
+    margin-bottom: 23px;
 }
 
 body {
@@ -50,6 +66,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.centralizar {
+.robo {
     text-align: center;
 }
