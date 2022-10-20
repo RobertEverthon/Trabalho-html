@@ -1,6 +1,11 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: textos;
+    src: url(Lato-MediumItalic.ttf);
 }
 
 body {
@@ -11,51 +16,60 @@ body {
     height: 100vh;
 }
 
-h1{
+h1 {
     text-align: center;
     margin-bottom: 5%;
+    font-size: 40px;
 }
 
-.conteudo{
-    position: relative;
+.conteudo {
+    position:absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
-    background-color: blue;
-    border-radius: 15px;
+    transform: translate(-50%, -50%);
+    background-color: rgb(8, 230, 100);
+    border-radius: 25px;
     padding: 30px;
-    width:min-content;
+    width: min-content;
     align-items: center;
 }
 
-input{
+input {
     width: 300px;
     padding: 10px;
+    font-family: textos;
+    outline: none;
 }
 
-.botao{
+.botao {
     margin-top: 5%;
     width: 100%;
     text-align: center;
 }
 
-button{
-padding: 10px;
-color: white;
-background-color: black;
-outline: none;
-border: none;
-width: 80%;
-height:20%;
-border-radius:10px;
-cursor: pointer;
+button {
+    padding: 10px;
+    color: white;
+    background-color: rgb(91, 2, 151);
+    outline: none;
+    border: none;
+    width: 80%;
+    height: 20%;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
 }
 
-a{
-    color: rgb(255, 153, 0);
+a {
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
-.marcacao{
+
+.marcacao {
     font-size: small;
     text-align: center;
+}
+
+p {
+    font-size: 16px;
 }

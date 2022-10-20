@@ -29,27 +29,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-p {
-    font-family: textos;
-    font-size: 23px;
-}
-
-h2, h3 {
-    font-family: title_text;
-    font-size: 30px;
-}
-
-.tecnews {
-    text-align: center;
-    font-size: 90px;
-    color: rgb(8, 230, 100);
-    font-family: font_tecnews;
-}
-
-.welcome {
-    font-family: font_welcome;
-    text-align: center;
-    font-size: 30px;
+*{
+    padding: 0;
+    margin: 0;
 }
 
 .menu1 {
@@ -57,17 +39,63 @@ h2, h3 {
     justify-content: space-between;
     list-style-type: none;
     align-items: center;
-    padding: 10px;
     background-color: rgb(91, 2, 151);
     font-size: 27px;
     font-family: fonte_menu;
 }
+li{
+    display: inline;
+}
 
-a {
+a{
+    display: inline-block;
     color: rgb(255, 255, 255);
     text-decoration: none;
+    padding:10px;
 }
 
-.centralizar {
+a:hover{
+    background-color: aqua;
+
+}
+
+.tecnews {
+    margin-top: 2%;
+    text-align: center;
+    font-size: 90px;
+    color: rgb(8, 230, 100);
+    font-family: font_tecnews;
+}
+.welcome {
+    font-family: font_welcome;
+    text-align: center;
+    font-size: 30px;
+}
+.centr-img1 {
     text-align: center;
 }
+div{
+    margin: 10%;
+}
+
+div h2{
+    text-align: left;
+    margin-bottom: 4%;
+    font-family: title_text;
+    font-size: 30px;
+}
+
+div h3{
+    text-align: left;
+    margin-bottom: 4%;
+    margin-top: 4%;
+    font-family: title_text;
+    font-size: 30px;
+}
+p {
+    font-family: textos;
+    font-size: 23px;
+    text-align: left;
+    text-align: justify;
+}
+
