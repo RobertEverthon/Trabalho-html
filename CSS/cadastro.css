@@ -43,7 +43,6 @@ input {
 
 .botao {
     margin-top: 5%;
-    width: 100%;
     text-align: center;
 }
 
@@ -66,7 +65,6 @@ a {
 }
 
 .marcacao {
-    font-size: small;
     text-align: center;
 }
 
