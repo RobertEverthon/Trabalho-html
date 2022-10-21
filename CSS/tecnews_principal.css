@@ -1,26 +1,26 @@
 @font-face {
     font-family: fonte_menu;
-    src: url(BebasNeue-Regular.ttf);
+    src: url(Fontes/BebasNeue-Regular.ttf);
 }
 
 @font-face {
     font-family: font_welcome;
-    src: url(Lato-BlackItalic.ttf);
+    src: url(Fontes/Lato-BlackItalic.ttf);
 }
 
 @font-face {
     font-family: font_tecnews;
-    src: url(CocogooseProItalic-trial.ttf);
+    src: url(Fontes/CocogooseProItalic-trial.ttf);
 }
 
 @font-face {
     font-family: textos;
-    src: url(Lato-MediumItalic.ttf);
+    src: url(Fontes/Lato-MediumItalic.ttf);
 }
 
 @font-face {
     font-family: title_text;
-    src: url(Lato-Black.ttf);
+    src: url(Fontes/Lato-Black.ttf);
 }
 
 body {
@@ -116,6 +116,7 @@ blockquote {
     text-align: justify;
     margin-top: 2%;
 }
+
 .images {
     text-align: center;
     margin-top: 2%;
