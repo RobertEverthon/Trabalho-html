@@ -44,10 +44,6 @@ body {
     font-family: fonte_menu;
 }
 
-li {
-    display: inline;
-}
-
 a {
     display: inline-block;
     color: rgb(255, 255, 255);
