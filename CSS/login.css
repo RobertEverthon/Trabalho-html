@@ -26,7 +26,10 @@ h1{
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 25px;
-    padding: 30px;
+    padding: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
     width: min-content;
     align-items: center;
 }
@@ -34,6 +37,7 @@ h1{
 input{
     margin-top: 8%;
     width: 200px;
+    height: 25px;
     padding: 10px;
     font-family: textos;
     outline: none;
@@ -54,6 +58,7 @@ button{
 }
 
 p{
+    margin-top: 8%;
     text-align: center;
 }
 

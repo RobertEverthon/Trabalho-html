@@ -34,7 +34,7 @@ body {
     margin: 0;
 }
 
-.menu1 {
+.menu {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
@@ -42,10 +42,6 @@ body {
     background-color: rgb(91, 2, 151);
     font-size: 27px;
     font-family: fonte_menu;
-}
-
-li {
-    display: inline;
 }
 
 a {
@@ -79,8 +75,8 @@ a:hover{
     margin: 30px;
 }
 
-div{
-    margin: 10%;
+.conteudo{
+    margin: 15%;
     margin-top: 30px;
 }
 
@@ -100,10 +96,9 @@ div h3 {
 }
 
 div h4 {
-    margin-bottom: 4%;
+    margin-bottom: 3%;
     margin-top: 1%;
     font-size: 20px;
-
 }
 
 p {
@@ -114,6 +109,14 @@ p {
     margin-top: 2%;
 }
 
-.ransomware {
+blockquote {
+    font-family: textos;
+    font-size: 40px;
+    text-align: left;
+    text-align: justify;
+    margin-top: 2%;
+}
+.images {
     text-align: center;
+    margin-top: 2%;
 }
