@@ -1,11 +1,11 @@
 @font-face {
     font-family: textos;
-    src: url(Lato-MediumItalic.ttf);
+    src: url(Fontes/Lato-MediumItalic.ttf);
 }
 
 @font-face {
     font-family: fonte_menu;
-    src: url(BebasNeue-Regular.ttf);
+    src: url(Fontes/BebasNeue-Regular.ttf);
 }
 
 *{
