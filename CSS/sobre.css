@@ -29,14 +29,14 @@ body {
     font-family: fonte_menu;
 }
 
-a {
+.menu a {
     display: inline-block;
     color: rgb(255, 255, 255);
     text-decoration: none;
     padding:10px;
 }
 
-a:hover{
+.menu a:hover{
     background-color: rgb(64, 1, 105);
 }
 
@@ -45,27 +45,43 @@ a:hover{
     padding-top: 5%;
 }
 
-h1 {
+.conteudo h1 {
     font-size: 45px;
     margin-bottom: 23px;
 }
 
-h2 {
+.conteudo h2 {
     color: rgb(8, 230, 100);
     text-indent: 35px;
     margin-bottom: 23px;
 }
 
-hr {
+.conteudo hr {
     margin-bottom: 23px;
 }
 
-p {
+.conteudo p {
     font-family: textos;
     font-size: 23px;
     text-indent: 35px;
 }
 
-.robo{
+.rodape {
+    background-color: rgb(20, 1, 36);
+    width: 100%;
+    height: 150px;
+}
+
+.rodape ul {
+    list-style-type: none;
     text-align: center;
+    font-size: 27px;
+    font-family: fonte_menu;
+}
+
+.rodape a {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px;
 }
