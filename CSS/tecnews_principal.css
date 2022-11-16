@@ -67,6 +67,7 @@ body {
     text-align: center;
     font-size: 27px;
     font-family: fonte_menu;
+    align-items: center;
 }
 
 .rodape a {
@@ -96,12 +97,6 @@ body {
 .menu a:hover{
     background-color: rgb(64, 1, 105);
 }
-
-/*  
-.centr-img1 {
-    text-align: center;
-    margin: 30px;
-}*/
 
 .conteudo{
     margin: 15%;
