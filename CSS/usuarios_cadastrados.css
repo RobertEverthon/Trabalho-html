@@ -11,4 +11,7 @@
 body {
     background-color: rgb(28, 32, 49);
     font-family: textos;
+    font-size: 30px;
+    margin-left: 15%;
+    margin-right: 15%;
 }
