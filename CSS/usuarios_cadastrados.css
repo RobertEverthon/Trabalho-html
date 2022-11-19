@@ -13,21 +13,25 @@ body {
     font-family: textos;   
 }
 
+.topo {
+    background-color: #098f8f;
+    padding: 3px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
 table {
 	width: 100%;
 	padding: 50px;
     font-size: 25px;
+    margin-top: -3%;
 }
 
 h2 {
     font-size: 50px;
     padding: 50px;
     color: white;
-}
-
-hr {
-    margin-left: 50px;
-    margin-right: 50px;
 }
 
 th {
@@ -38,17 +42,10 @@ th {
     padding: 15px;
 }
 
-td{
+td {
 	font-weight: bold;
 	background-color: #EEE;
     text-align: center;
     padding: 6px;
 }
 
-.topo {
-    background-color: #098f8f;
-    padding: 3px;
-    color: white;
-    text-align: center;
-    font-size: 25px;
-}
