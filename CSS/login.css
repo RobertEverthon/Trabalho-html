@@ -49,6 +49,10 @@ h1{
 .topo {
     background-color: #098f8f;
     padding: 3px;
+    background-image: url(../Imagens/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .topo h1 {
