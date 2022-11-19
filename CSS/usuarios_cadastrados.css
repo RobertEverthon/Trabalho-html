@@ -10,8 +10,45 @@
 
 body {
     background-color: rgb(28, 32, 49);
-    font-family: textos;
-    font-size: 30px;
-    margin-left: 15%;
-    margin-right: 15%;
+    font-family: textos;   
+}
+
+table {
+	width: 100%;
+	padding: 50px;
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 50px;
+    padding: 50px;
+    color: white;
+}
+
+hr {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+th {
+    color: white;
+    border: 1px solid #ccc;
+	text-align: center;
+    background-color: rgb(167, 165, 165);
+    padding: 15px;
+}
+
+td{
+	font-weight: bold;
+	background-color: #EEE;
+    text-align: center;
+    padding: 6px;
+}
+
+.topo {
+    background-color: #098f8f;
+    padding: 3px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
 }
