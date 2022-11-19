@@ -3,3 +3,12 @@
     margin: 0;
 }
 
+@font-face {
+    font-family: textos;
+    src: url(../Fontes/Lato-MediumItalic.ttf);
+}
+
+body {
+    background-color: rgb(28, 32, 49);
+    font-family: textos;
+}
