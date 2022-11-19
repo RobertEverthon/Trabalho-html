@@ -30,12 +30,33 @@ h1{
     font-size: 40px;
 }
 
+.menu {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    background-color: #0b6e6e;
+    font-size: 27px;
+    font-family: fonte_menu;
+}
+
+.menu a {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px;
+}
+
+.menu a:hover{
+    background-color: rgb(6, 87, 87);
+}
+
 .tela-login{
     background-color: rgb(6, 87, 87);
     position:absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -40%);
+    transform: translate(-50%, -25%);
     border-radius: 25px;
     padding: 40px;
     padding-left: 50px;
