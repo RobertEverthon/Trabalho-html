@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,35 +8,43 @@
     <link rel="stylesheet" href="CSS/cadastro.css">
     <link rel="shortcut icon" href="Imagens/favicon.svg" type="image/x-icon">
 </head>
-
 <body>
-    <div class="conteudo">
-        <h1>Cadastre-se e fique por dentro das novas notícias</h1>
-        <p>Nome completo</p>
-        <div>
-            <input type="username" placeholder="Nome completo" required>
-        </div>
-        <p>E-mail</p>
-        <div>
-            <input type="username" placeholder="E-mail">
-        </div>
-        <p>Senha</p>
-        <div>
-            <input type="password" placeholder="Senha">
-        </div>
-        <p>Confirmação</p>
-        <div>
-            <input type="password" placeholder="Confirme sua senha">
-        </div>
-        <div class="marcacao">
-            <p>Você concorda com nossos termos de <a href=""> política de privacidade?</a></p>
-            <input type="checkbox">
-        </div>
+    <form>
+        <div class="conteudo">
+            <h1>Cadastre-se para receber as novidades por e-mail</h1>
 
-        <div class="botao">
-            <button type="submit">Registrar</button>
+            <label for="name">Nome Completo</label>
+            <input id="name" type="text" placeholder="Nome completo" required>
+            
+            <label for="email">E-mail</label>
+            <input id="email" type="email" placeholder="E-mail" required>
+            
+            <label for="pass">Senha</label>
+            <input id="pass" type="password" placeholder="Senha" required>
+            
+            <label for="confirm">Corfirmação da Senha</label>
+            <input id="confirm" type="password" placeholder="Confirme sua senha" required>
+            
+            <div class="marcacao">
+                <p>Você concorda com nossos termos de <a href="">política de privacidade?</a></p>
+                <input type="checkbox">
+            </div>
+
+            <p>Já possui uma conta? Faça <a href="Login.html">login</a></p>
+    
+            <button class="botao" type="submit">Registrar</button>
         </div>
-    </div>
+    </form>
+    
+    <footer class="rodape">
+        <ul>
+            <li> <a href="Tecnews_principal.html">PÁGINA INICIAL</a></li>
+            <li> <a href="Sobre.html">Sobre</a> </li>
+            <li> <a href="Fale_conosco.html">Fale Conosco</a> </li>
+            <li> <a href="Login.html">Login</a> </li>
+            <li>© Copyright. Todos os direitos reservados 2022-2022 - Tecnews</li>
+        </ul>
+    </footer>
+
 </body>
-
 </html>
