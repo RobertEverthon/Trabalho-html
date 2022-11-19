@@ -15,7 +15,7 @@
 
 body {
     color: white;
-    background-color: rgb(13, 20, 31);
+    background-color: rgb(28, 32, 49);
     font-family: textos;
 }
 
@@ -33,7 +33,6 @@ p {
 input {
     width: 300px;
     padding: 10px;
-    font-family: textos;
     outline: none;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -49,11 +48,12 @@ a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgb(8, 230, 100);
+    background-color: rgb(6, 87, 87);
     border-radius: 25px;
     padding: 30px;
     width: min-content;
     align-items: center;
+    box-shadow: 0 4px 8px black;
 }
 
 .botao {
@@ -61,7 +61,7 @@ a {
     text-align: center;
     padding: 10px;
     color: white;
-    background-color: rgb(91, 2, 151);
+    background-color: rgb(2, 175, 95);
     outline: none;
     border: none;
     width: 100%;

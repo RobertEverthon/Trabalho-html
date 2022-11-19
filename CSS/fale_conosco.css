@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 @font-face {
     font-family: textos;
     src: url(../Fontes/Lato-MediumItalic.ttf);
@@ -8,68 +13,88 @@
     src: url(../Fontes/BebasNeue-Regular.ttf);
 }
 
-*{
-    padding: 0;
-    margin: 0;
-}
-
 body{
     color: white;
-    background-color: rgb(13, 20, 31);
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.menu{
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    align-items: center;
-    background-color: rgb(91, 2, 151);
-    font-size: 27px;
-    font-family: fonte_menu;
-}
-
-.menu a{
-    display: inline-block;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    padding:10px;
-}
-
-.menu a:hover{
-    background-color: rgb(64, 1, 105);
-}
-
-.conteudo{
-    margin: 10%;
-    margin-top: 5%;
-}
-
-.conteudo h1{
-    text-align: left;
-    margin-bottom: 4%;
-    font-size: 45px;
-}
-
-.conteudo p{
+    background-color: rgb(28, 32, 49);
     font-family: textos;
-    font-size: 23px;
-    text-align: left;
-    text-align: justify;
-    margin-bottom: 1%;
 }
 
-.conteudo hr{
-    margin-bottom: 23px;
+.formulario {
+    background-color: rgb(6, 87, 87);
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    width: auto;
+    align-items: center;
+    box-shadow: 0 4px 8px black;
 }
+
+h1 {
+    text-align: center;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+input {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    width: 100%;
+    height: 35px;
+}
+
+textarea {
+    margin-top: 5px;
+    width: 100%;
+}
+
+select {
+    margin-top: 5px;
+    width: 100%;
+    height: 25px;
+    margin-bottom: 5px;
+}
+
+.go {
+    margin-top: 20px;
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: rgb(2, 175, 95);
+    color: white;
+    border-radius: 3px;
+    border: none;
+} 
 
 .rodape {
-    background-color: rgb(20, 1, 36);
-    padding: 80px;
+    background-color: rgb(6, 87, 87);
+    padding: 25px;
+    margin-top: 690px;
 }
 
-.rodape p {
+.rodape ul {
+    list-style-type: none;
     text-align: center;
     font-size: 27px;
     font-family: fonte_menu;
+}
+
+.rodape a {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px;
 }

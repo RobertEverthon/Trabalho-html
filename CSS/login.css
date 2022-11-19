@@ -10,7 +10,7 @@
 
 body {
     color: white;
-    background-color: rgb(13, 20, 31);
+    background-color: rgb(28, 32, 49);
     font-family: textos;
 }
 
@@ -26,7 +26,7 @@ h1{
 }
 
 .tela-login{
-    background-color: rgb(8, 230, 100);
+    background-color: rgb(6, 87, 87);
     position:absolute;
     top: 50%;
     left: 50%;
@@ -38,6 +38,7 @@ h1{
     padding-bottom: 20px;
     width: min-content;
     align-items: center;
+    box-shadow: 0 4px 8px black;
 }
 
 input{
@@ -56,13 +57,13 @@ input{
     height: 100%;
     cursor: pointer;
     font-size: 15px;
-    background-color: rgb(91, 2, 151);
+    background-color: rgb(2, 175, 95);
     color: white;
     border-radius: 3px;
     border: none;
 } 
 
-p{
+p {
     margin-top: 8%;
     text-align: center;
     font-size: 20px;

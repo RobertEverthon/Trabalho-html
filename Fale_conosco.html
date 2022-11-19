@@ -11,25 +11,40 @@
 </head>
 
 <body>
-    <header>
-        <ul class="menu">
-            <li> <a href="Cadastros.html">Cadastro</a></li>
-            <li> <a href="Tecnews_principal.html">Página Inicial</a></li>
-            <li> <a href="Sobre.html">Sobre</a></li>
-            <li> <a href="Login.html">Login</a></li>
-        </ul>
-    </header>
+    <form class="formulario">
+        <h1>Preencha este formulário e envie seu comentário ou dúvida</h1>
 
-    <section class="conteudo">
-        <h1>Fale conosco</h1>
-        <hr>
-        <p>Atendimento: De segunda a sexta das 09h ás 17h - Aos sábados das 09h ás 18h</p>
-        <p>E-mail: tecnews@gmail.com</p>
-        <p>Telefone: 0800 983 3720</p>
-    </section>
+        <label for="name">Nome Completo</label>
+        <input id="name" type="text" placeholder="Nome Completo" required> 
+
+        <label for="email">E-mail</label> 
+        <input id="email" type="email" placeholder="E-mail" required>
+
+        <label for="num">Número de Telefone</label>
+        <input id="num" type="number" placeholder="Telefone">
+
+        <label for="assunto">Selecione um assunto:</label></label>
+        <select id="assunto" required>
+            <option selected disabled value="">Selecione um assunto</option>
+            <option value="esqueci_senha">Esqueci minha senha</option>
+            <option value="sugetao_noticia">Sugestão de notícia</option>
+            <option value="erro_login_cadastro">Erro ao fazer login ou cadastro</option>
+        </select>
+
+        <label for="mens">Digite sua mensagem:</label>
+        <textarea id="mens" rows="10" cols="35" placeholder="Escreva aqui..." name="mensagem" required></textarea>
+
+        <button class="go" type="submit" value="Formulário">Enviar Formulário</button>
+    </form>
 
     <footer class="rodape">
-        <p>© Copyright. Todos os direitos reservados 2022-2022 - Tecnews</p>
+        <ul>
+            <li> <a href="Tecnews_principal.html">PÁGINA INICIAL</a></li>
+            <li> <a href="Sobre.html">Sobre</a> </li>
+            <li> <a href="Login.html">Login</a> </li>
+            <li> <a href="Cadastros.html">Cadastro</a> </li>
+            <li>© Copyright. Todos os direitos reservados 2022-2022 - Tecnews</li>
+        </ul>
     </footer>
 </body>
 
