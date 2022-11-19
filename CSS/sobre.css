@@ -103,16 +103,15 @@ body {
     list-style-type: none;
     text-align: center;
     font-size: 27px;
+    font-family: fonte_menu;
 }
 
 .rodape a {
     display: inline-block;
     color: rgb(255, 255, 255);
     text-decoration: none;
-    font-family: fonte_menu;
 }
 
 .rodape li {
     padding: 10px;
-    font-family: fonte_menu;
 }
