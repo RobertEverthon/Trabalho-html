@@ -91,5 +91,8 @@ a {
     display: inline-block;
     color: rgb(255, 255, 255);
     text-decoration: none;
+}
+
+.rodape li {
     padding: 10px;
 }
