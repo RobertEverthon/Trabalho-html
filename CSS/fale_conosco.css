@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
@@ -18,7 +18,7 @@
     src: url(../Fontes/BebasNeue-Regular.ttf);
 }
 
-body{
+body {
     color: white;
     background-color: rgb(28, 32, 49);
     font-family: textos;
@@ -63,7 +63,7 @@ body{
     padding: 10px;
 }
 
-.menu a:hover{
+.menu a:hover {
     background-color: rgb(6, 87, 87);
 }
 
