@@ -25,55 +25,56 @@
         </ul>
     </nav>
 
-    <form class="tela-cadastro" action="#">
-        <h1>Cadastro do Usuário</h1>
-        <label for="nome">Nome:</label>
-        <input type="text" name="nome" id="nome" placeholder="Digite seu nome...">
+    <form action="#">
+        <div class="tela-cadastro">
+            <h1>Cadastro do Usuário</h1>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome...">
 
-        <label for="nome">CPF:</label>
-        <input type="text" name="cpf" id="cpf" placeholder="XXX-XXX-XXX-XX">
+            <label for="nome">CPF:</label>
+            <input type="text" name="cpf" id="cpf" placeholder="XXX-XXX-XXX-XX">
 
-        <label for="nome">Nome de usuário:</label>
-        <input type="text" name="nome-user" id="nome-user" placeholder="Digite seu nome de usuário...">
+            <label for="nome">Nome de usuário:</label>
+            <input type="text" name="nome-user" id="nome-user" placeholder="Digite seu nome de usuário...">
 
-        <label for="nome">Senha:</label>
-        <input type="password" name="senha" id="senha" placeholder="Digite sua senha...">
+            <label for="nome">Senha:</label>
+            <input type="password" name="senha" id="senha" placeholder="Digite sua senha...">
 
-        <label for="nome">Confime a senha:</label>
-        <input type="password" name="conf-senha" id="conf-senha" placeholder="Confirme sua senha...">
+            <label for="nome">Confime a senha:</label>
+            <input type="password" name="conf-senha" id="conf-senha" placeholder="Confirme sua senha...">
 
-        <label for="nome">Telefone:</label>
-        <input type="tel" name="telefone" id="telefone" placeholder="(XX) XXXX-XXXX">
+            <label for="nome">Telefone:</label>
+            <input type="tel" name="telefone" id="telefone" placeholder="(XX) XXXX-XXXX">
 
-        <label for="nome">Endereço:</label>
-        <input type="text" name="endereco" id="endereco" placeholder="Digite seu endereço...">
+            <label for="nome">Endereço:</label>
+            <input type="text" name="endereco" id="endereco" placeholder="Digite seu endereço...">
 
-        <label for="nome">E-mail:</label>
-        <input type="email" name="email" id="email" placeholder="Digite seu email...">
+            <label for="nome">E-mail:</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu email...">
 
+            <div class="user-type">
+                <label>Perfil de usuário:</label>
+                <br>
+                <input type="radio" name="user" id="leitor">
+                <label for="leitor">Leitor</label>
+    
+                <input type="radio" name="user" id="visitante">
+                <label for="visitante">Visitante</label>
+    
+                <input type="radio" name="user" id="">
+                <label for="">Outro</label>
+            </div>
 
-        <div class="user-type">
-            <label>Perfil de usuário:</label>
-            <br>
-            <input type="radio" name="user" id="leitor">
-            <label for="leitor">Leitor</label>
-
-            <input type="radio" name="user" id="visitante">
-            <label for="visitante">Visitante</label>
-
-            <input type="radio" name="user" id="">
-            <label for="">Outro</label>   
+            <div class="faz-login">
+                <p>Já possui uma conta? Faça <a href="Login.html">Login</a></p>
+            </div>
+    
+            <div class="button">
+                <input class="botao" type="reset" value="Limpar">
+                <input class="botao" type="submit" value="Registrar">
+            </div>
+            
         </div>
-
-        <div class="faz-login">
-            <p>Já possui uma conta? Faça <a href="Login.html">Login</a></p>
-        </div>
-
-        <div class="button">
-            <input class="botao" type="reset" value="Limpar">
-            <input class="botao" type="submit" value="Registrar">
-        </div>
-
     </form>
 
     <footer class="rodape">
