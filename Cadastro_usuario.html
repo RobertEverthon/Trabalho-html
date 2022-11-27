@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de Usuário</title>
-    <link rel="stylesheet" href="CSS/cadastro.css">
+    <link rel="stylesheet" href="CSS/cadastro_usuario.css">
     <link rel="shortcut icon" href="Imagens/favicon.svg" type="image/x-icon">
 </head>
+
 <body>
     <header class="topo">
         <h1><a href="Tecnews_principal.html">Tecnews</a></h1>
@@ -24,36 +26,75 @@
     </nav>
 
     <form class="tela_cadastro">
-        <h1>Cadastre-se para receber as novidades por e-mail</h1>
 
-        <label for="name">Nome Completo:</label>
-        <input id="name" type="text" placeholder="Nome completo" required>
+        <h1 id="titulo">Cadastro de Usuário</h1>
+        <p id="subtitulo">Insira suas informações</p>
+        <br>
 
-        <label for="name_user">Nome de Usuário:</label>
-        <input id="name_user" type="text" placeholder="Nome de Usuário" required>
 
-        <label for="fone">Tefefone:</label>
-        <input id="fone" type="number" placeholder="Tefefone" required>
-            
-        <label for="email">E-mail:</label>
-        <input id="email" type="email" placeholder="E-mail" required>
-            
-        <label for="pass">Senha:</label>
-        <input id="pass" type="password" placeholder="Senha" required>
-            
-        <label for="confirm">Corfirmação da Senha:</label>
-        <input id="confirm" type="password" placeholder="Confirme sua senha" required>
-            
+
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome">
+
+
+
+        <label for="nome_user">Nome de Usuário:</label>
+        <input type="text" name="nome_user" id="nome_user">
+
+
+
+        <label for="cpf">CPF:</label>
+        <input type="text" name="cpf" id="cpf">
+
+
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" name="telefone" id="telefone">
+
+
+
+        <label for="endereco">Endereço:</label>
+        <input type="text" name="endereco" id="endereco">
+
+
+
+        <label for="e-mail">E-mail:</label>
+        <input type="email" name="e-mail" id="e-mail">
+
+
+
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha" id="senha">
+
+
+
+        <label for="confirm_senha">Confirme sua senha:</label>
+        <input type="password" name="confirm_senha" id="confirm_senha">
+
+        
+
+        <label>Perfil de usuário:</label>
+        
+        <input type="radio" name="perfil" value="leitor">
+        <label>Leitor</label>
+
+        <input type="radio" name="perfil" value="visitante">
+        <label>Visitante</label>
+
+        <input type="radio" name="perfil" value="Outro">
+        <label>Outro</label>
+
         <div class="marcacao">
             <label for="aceita">Você concorda com nossos termos de <a href="">política de privacidade?</a></label>
             <input id="aceita" type="checkbox" required>
         </div>
 
         <p>Já possui uma conta? Faça <a href="Login.html">login</a></p>
-    
-        <button class="botao" type="submit" value="Registrar">Registrar</button>
+
+        <button class="botao" type="reset">Limpar</button>
+        <button class="botao" type="submit">Salvar</button>
     </form>
-    
+
     <footer class="rodape">
         <ul>
             <li> <a href="Tecnews_principal.html">PÁGINA INICIAL</a></li>
@@ -66,4 +107,5 @@
     </footer>
 
 </body>
+
 </html>
