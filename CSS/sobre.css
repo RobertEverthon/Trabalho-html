@@ -67,6 +67,36 @@ body {
     background-color: rgb(6, 87, 87);
 }
 
+li a, .dropbtn{
+    display: inline-block;
+    color: white;
+    text-align: center;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(6, 87, 87);
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content{
+    position: absolute;
+    background-color: #0b6e6e;
+    display: none;
+}
+
+.dropdown-content a{
+    color: white;
+    display: block;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 .conteudo{
     padding: 10%;
     padding-top: 5%;
