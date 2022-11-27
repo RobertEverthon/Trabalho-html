@@ -94,9 +94,8 @@ body {
 }
 
 .user-type {
-    display: flex;
-    align-items: center;
     margin-top: 5px;
+    align-items: center;
 }
 
 .user-type input {
