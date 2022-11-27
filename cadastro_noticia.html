@@ -18,7 +18,7 @@
                 <a class="dropbtn" href="#">Cadastros</a>
                 <div class="dropdown-content">
                     <a href="Cadastro_usuario.html">Usuário</a>
-                    <a href="#">Notícia</a>
+                    <a href="cadastro_noticia.html">Notícia</a>
                 </div>
             </li>
             <li> <a href="#">Área do Administrador</a></li>
@@ -27,5 +27,43 @@
             <li> <a href="Login.html">Login</a></li>
         </ul>
     </nav>
+
+    <form class="tela-cadastro">
+        <h1>Cadastro da notícia</h1>
+
+        <label for="titulo">Título:</label>
+        <input type="text" name="titulo" id="titulo" placeholder="Digite o título">
+
+        <label for="autor">Nome do autor:</label>
+        <input type="text" name="autor" id="autor" placeholder="Nome do autor">
+
+        <label for="decricao">Descrição:</label>
+        <textarea name="descricao" id="descricao" cols="30" rows="5" placeholder="Digite a descrição da notícia..."></textarea>
+
+        <label for="data">Data de publicação:</label>
+        <input type="date" name="data" id="data">
+
+        <label for="tema">Tema:</label>
+        <select id="tema">
+            <option selected disabled value="">Selecione um tema</option>
+            <option value="ataque_hacker">Ataque Hacker</option>
+            <option value="nova_tecnologia">Nova tecnologia</option>
+            <option value="Vulnerabilidade">Vulnerabilidades de sistemas</option>
+        </select>
+
+        <button class="botao" type="reset">Limpar</button>
+        <button class="botao" type="submit">Salvar</button>
+    </form>
+
+    <footer class="rodape">
+        <ul>
+            <li> <a href="Tecnews_principal.html">PÁGINA INICIAL</a></li>
+            <li> <a href="Sobre.html">Sobre</a> </li>
+            <li> <a href="Fale_conosco.html">Fale Conosco</a> </li>
+            <li> <a href="Login.html">Login</a> </li>
+            <li> <a href="#">Área do Administrador</a></li>
+            <li>© Copyright. Todos os direitos reservados 2022-2022 - Tecnews</li>
+        </ul>
+    </footer>
 </body>
 </html>
