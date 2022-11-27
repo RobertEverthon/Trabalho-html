@@ -124,7 +124,6 @@ li.dropdown {
 }
 
 .user-type {
-    display: flex;
     align-items: center;
     margin-top: 5px;
 }
