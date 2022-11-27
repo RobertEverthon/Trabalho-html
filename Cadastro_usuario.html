@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usuário</title>
+    <link rel="stylesheet" href="CSS/cadastro_usuario.css">
+    <link rel="shortcut icon" href="Imagens/favicon.svg" type="image/x-icon">
+</head>
+
+<body>
+    <header class="topo">
+        <h1><a href="Tecnews_principal.html">Tecnews</a></h1>
+    </header>
+
+    <nav>
+        <ul class="menu">
+            <li> <a href="Tecnews_principal.html">Página inicial</a></li>
+            <li> <a href="Sobre.html">Sobre</a></li>
+            <li> <a href="Fale_conosco.html">Fale Conosco</a></li>
+            <li> <a href="Login.html">Login</a></li>
+            <li> <a href="#">Área do Administrador</a></li>
+        </ul>
+    </nav>
+
+    <form action="#">
+        <div class="tela-cadastro">
+            <h1>Cadastro do Usuário</h1>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome...">
+
+            <label for="nome">CPF:</label>
+            <input type="text" name="cpf" id="cpf" placeholder="XXX-XXX-XXX-XX">
+
+            <label for="nome">Nome de usuário:</label>
+            <input type="text" name="nome-user" id="nome-user" placeholder="Digite seu nome de usuário...">
+
+            <label for="nome">Senha:</label>
+            <input type="password" name="senha" id="senha" placeholder="Digite sua senha...">
+
+            <label for="nome">Confime a senha:</label>
+            <input type="password" name="conf-senha" id="conf-senha" placeholder="Confirme sua senha...">
+
+            <label for="nome">Telefone:</label>
+            <input type="tel" name="telefone" id="telefone" placeholder="(XX) XXXX-XXXX">
+
+            <label for="nome">Endereço:</label>
+            <input type="text" name="endereco" id="endereco" placeholder="Digite seu endereço...">
+
+            <label for="nome">E-mail:</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu email...">
+
+            <div class="user-type">
+                <label>Perfil de usuário:</label>
+                <br>
+                <input type="radio" name="user" id="gamer">
+                <label for="gamer">Gamer</label>
+                <br>
+    
+                <input type="radio" name="user" id="user-domestico">
+                <label for="user-domestico">Usuário doméstico</label>
+                <br>
+    
+                <input type="radio" name="user" id="hacker">
+                <label for="hacker">Hacker</label>
+            </div>
+
+            <div class="faz-login">
+                <p>Já possui uma conta? Faça <a href="Login.html">Login</a></p>
+            </div>
+    
+            <div class="button">
+                <input class="botao" type="reset" value="Limpar">
+                <input class="botao" type="submit" value="Registrar">
+            </div>
+            
+        </div>
+    </form>
+
+    <footer class="rodape">
+        <ul>
+            <li> <a href="Tecnews_principal.html">PÁGINA INICIAL</a></li>
+            <li> <a href="Sobre.html">Sobre</a> </li>
+            <li> <a href="Fale_conosco.html">Fale Conosco</a> </li>
+            <li> <a href="Login.html">Login</a> </li>
+            <li> <a href="#">Área do Administrador</a></li>
+            <li>© Copyright. Todos os direitos reservados 2022-2022 - Tecnews</li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>
