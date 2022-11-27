@@ -18,7 +18,7 @@
     src: url(../Fontes/CocogooseProItalic-trial.ttf);
 }
 
-body {
+body { 
     color: white;
     background-color: rgb(28, 32, 49);
     font-family: textos;
@@ -43,6 +43,7 @@ body {
 
 .topo a {
     color: white;
+    text-decoration: none;
 }
 
 .menu {
@@ -66,31 +67,7 @@ body {
     background-color: rgb(6, 87, 87);
 }
 
-#titulo {
-    text-align: center;
-    margin-bottom: 5%;
-    font-size: 25px;
-}
-
-p, #subtitulo {
-    font-size: 17px;
-    text-align: center;
-}
-
-input {
-    width: 300px;
-    padding: 10px;
-    outline: none;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-}
-
-.tela_cadastro {
+.tela-cadastro {
     background-color: rgb(6, 87, 87);
     box-shadow: 0 4px 8px black;
     padding: 30px;
@@ -98,9 +75,46 @@ a {
     position:absolute ;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -10%);
+    transform: translate(-50%, -15%);
     align-items: center;
     width: min-content;
+}
+
+.tela-cadastro input {
+    width: 300px;
+    padding: 10px;
+    outline: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.tela-cadastro h1 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.user-type {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.user-type input {
+    width: 20px;
+}
+
+.faz-login p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.faz-login a {
+    color: black;
+}
+
+.button input {
+    width: 100%;
 }
 
 .botao {
@@ -118,15 +132,10 @@ a {
     font-size: 17px;
 }
 
-.marcacao {
-    text-align: center;
-    margin-top: 15px;
-}
-
 .rodape {
     background-color: rgb(6, 87, 87);
     padding: 25px;
-    margin-top: 1150px;
+    margin-top: 980px;
 }
 
 .rodape ul {
