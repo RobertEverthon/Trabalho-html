@@ -12,11 +12,11 @@ form.addEventListener("submit", (e) => {
     e.preventDefault();
 
     checkInputs();
+    checkCPF();
 });
 
 function checkInputs() {
     const nomeValue = nome.value;
-    const cpfValue = cpf.value;
     const nome_userValue = nome_user.value;
     const senhaValue = senha.value;
     const conf_senhaValue = conf_senha.value;
@@ -28,14 +28,6 @@ function checkInputs() {
         setErrorFor(nome, "O nome é obrigatório.");
     } else {
         setSuccessFor(nome);
-    }
-
-    if (cpfValue === "") {
-        setErrorFor(cpf, "O CPF é obrigatório.");
-    } else if (cpfValue.length < 11) {
-        setErrorFor(cpf, "O CPF precisa ter 11 caracteres.");
-    } else {
-        setSuccessFor(cpf);
     }
 
     if (nome_userValue === "") {
@@ -109,4 +101,16 @@ function setSuccessFor(input) {
 
 function checkEmail(email) {
     return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
+}
+
+function checkCPF() {
+    const cpfValue = cpf.value;
+
+    if (cpfValue === "") {
+        setErrorFor(cpf, "O CPF é obrigatório.");
+    } else if (cpfValue.length < 11) {
+        setErrorFor(cpf, "O CPF precisa ter 11 caracteres.");
+    } else {
+        setSuccessFor(cpf);
+    }
 }
