@@ -11,84 +11,108 @@
 </head>
 
 <body>
-    <header class="topo">
-        <h1><a href="Tecnews_principal.html">Tecnews</a></h1>
-    </header>
-
-    <nav>
-        <ul class="menu">
-            <li> <a href="Tecnews_principal.html">Página inicial</a></li>
-            <li> <a href="Sobre.html">Sobre</a></li>
-            <li> <a href="Fale_conosco.html">Fale Conosco</a></li>
-            <li> <a href="Login.html">Login</a></li>
-            <li> <a href="#">Área do Administrador</a></li>
-        </ul>
-    </nav>
-
-    <form action="#">
-        <div class="tela-cadastro">
-            <h1>Cadastro do Usuário</h1>
-            <label for="nome">Nome:</label>
-            <input type="text" name="nome" id="nome" placeholder="Digite seu nome...">
-
-            <label for="nome">CPF:</label>
-            <input type="text" name="cpf" id="cpf" placeholder="XXX-XXX-XXX-XX">
-
-            <label for="nome">Nome de usuário:</label>
-            <input type="text" name="nome-user" id="nome-user" placeholder="Digite seu nome de usuário...">
-
-            <label for="nome">Senha:</label>
-            <input type="password" name="senha" id="senha" placeholder="Digite sua senha...">
-
-            <label for="nome">Confime a senha:</label>
-            <input type="password" name="conf-senha" id="conf-senha" placeholder="Confirme sua senha...">
-
-            <label for="nome">Telefone:</label>
-            <input type="tel" name="telefone" id="telefone" placeholder="(XX) XXXX-XXXX">
-
-            <label for="nome">Endereço:</label>
-            <input type="text" name="endereco" id="endereco" placeholder="Digite seu endereço...">
-
-            <label for="nome">E-mail:</label>
-            <input type="email" name="email" id="email" placeholder="Digite seu email...">
-
-            <div class="user-type">
-                <label>Perfil de usuário:</label>
-                <br>
-                <input type="radio" name="user" id="gamer">
-                <label for="gamer">Gamer</label>
-                <br>
-    
-                <input type="radio" name="user" id="user-domestico">
-                <label for="user-domestico">Usuário doméstico</label>
-                <br>
-    
-                <input type="radio" name="user" id="hacker">
-                <label for="hacker">Hacker</label>
-            </div>
-
-            <div class="faz-login">
-                <p>Já possui uma conta? Faça <a href="Login.html">Login</a></p>
-            </div>
-    
-            <div class="button">
-                <input class="botao" type="reset" value="Limpar">
-                <input class="botao" type="submit" value="Registrar">
-            </div>
-            
+    <div class="container">
+        <div class="header">
+            <h1>Cadastro de usuário</h1>
         </div>
-    </form>
 
-    <footer class="rodape">
-        <ul>
-            <li> <a href="Tecnews_principal.html">PÁGINA INICIAL</a></li>
-            <li> <a href="Sobre.html">Sobre</a> </li>
-            <li> <a href="Fale_conosco.html">Fale Conosco</a> </li>
-            <li> <a href="Login.html">Login</a> </li>
-            <li> <a href="#">Área do Administrador</a></li>
-            <li>© Copyright. Todos os direitos reservados 2022-2022 - Tecnews</li>
-        </ul>
-    </footer>
+        <form id="form" class="form">
+
+            <div class="form_control">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome...">
+                <i><img class="igm_error" src="Imagens/error-icon.svg" alt=""></i>
+                <i><img class="igm_success" src="Imagens/success-icon.svg" alt=""></i>
+                <small></small>
+            </div>
+
+            <div class="form_control">
+                <label for="cpf">CPF:</label>
+                <input type="text" name="cpf" id="cpf" placeholder="XXX-XXX-XXX-XX">
+                <i><img class="igm_error" src="Imagens/error-icon.svg" alt=""></i>
+                <i><img class="igm_success" src="Imagens/success-icon.svg" alt=""></i>
+                <small></small>
+            </div>
+
+            <div class="form_control">
+                <label for="nome_user">Nome de usuário:</label>
+                <input type="text" name="nome_user" id="nome_user" placeholder="Digite seu nome de usuário...">
+                <i><img class="igm_error" src="Imagens/error-icon.svg" alt=""></i>
+                <i><img class="igm_success" src="Imagens/success-icon.svg" alt=""></i>
+                <small></small>
+            </div>
+
+            <div class="form_control">
+                <label for="senha">Senha:</label>
+                <input type="password" name="senha" id="senha" placeholder="Digite sua senha...">
+                <i><img class="igm_error" src="Imagens/error-icon.svg" alt=""></i>
+                <i><img class="igm_success" src="Imagens/success-icon.svg" alt=""></i>
+                <small></small>
+            </div>
+
+            <div class="form_control">
+                <label for="conf_senha">Confime a senha:</label>
+                <input type="password" name="conf_senha" id="conf_senha" placeholder="Confirme sua senha...">
+                <i><img class="igm_error" src="Imagens/error-icon.svg" alt=""></i>
+                <i><img class="igm_success" src="Imagens/success-icon.svg" alt=""></i>
+                <small></small>
+            </div>
+
+            <div class="form_control">
+                <label for="telefone">Telefone:</label>
+                <input type="tel" name="telefone" id="telefone" placeholder="(XX) XXXX-XXXX">
+                <i><img class="igm_error" src="Imagens/error-icon.svg" alt=""></i>
+                <i><img class="igm_success" src="Imagens/success-icon.svg" alt=""></i>
+                <small></small>
+            </div>
+
+            <div class="form_control">
+                <label for="endereco">Endereço:</label>
+                <input type="text" name="endereco" id="endereco" placeholder="Digite seu endereço...">
+                <i><img class="igm_error" src="Imagens/error-icon.svg" alt=""></i>
+                <i><img class="igm_success" src="Imagens/success-icon.svg" alt=""></i>
+                <small></small>
+            </div>
+
+            <div class="form_control">
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu email...">
+                <i><img class="igm_error" src="Imagens/error-icon.svg" alt=""></i>
+                <i><img class="igm_success" src="Imagens/success-icon.svg" alt=""></i>
+                <small></small>
+            </div>
+
+            <div class="parag">
+                <p>Perfil de usuário:</p>
+            </div>
+            <div class="box_select">
+                <div>
+                    <input type="radio" name="user" id="gamer">
+                    <label for="gamer">Gamer</label>
+                </div>
+                
+                <div>
+                    <input type="radio" name="user" id="user_domestico">
+                    <label for="user_domestico">Usuário doméstico</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="user" id="hacker">
+                    <label for="hacker">Hacker</label>
+                </div>
+            </div>
+
+            <div class="parag2">
+                <p>Já possui uma conta? <a href="Login.html">Faça login</a></p>
+            </div>
+
+            <button type="reset">LIMPAR</button>
+            <button type="submit">SALVAR</button>
+
+        </form>
+    </div>
+
+    <script src="js/cadastrouser.js"></script>
 
 </body>
 
