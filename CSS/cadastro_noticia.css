@@ -29,7 +29,7 @@ body {
     max-width: 100%;
     overflow: hidden;
     margin: 30px;
-    margin-top: 50%;
+    margin-top: -25%;
 }
 
 .header {
@@ -154,4 +154,25 @@ body {
 
 .parag2 a {
     color: black;
+}
+
+caption{
+    font-size: 25px;
+    background-color: #098f8f;
+    padding: 10px;
+}
+
+table{
+    width: 800px;
+    height: 170px;
+    border-collapse: collapse;
+    background-color: #098f8f;
+    margin-top: 150%;
+    margin-bottom: 5%;
+
+}
+
+td, th{
+    border: 2px solid blue;
+    padding: 15px;
 }
