@@ -21,6 +21,7 @@ body {
 }
 
 .container {
+    position: absolute;
     background-color: rgb(6, 87, 87);
     border-radius: 25px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
@@ -29,6 +30,7 @@ body {
     overflow: hidden;
     margin-top: 50px;
     margin-bottom: 50px;
+    margin: 30px;
 }
 
 .header {
@@ -135,4 +137,26 @@ body {
 
 .parag2 a {
     color: black;
+}
+
+caption{
+    font-size: 25px;
+    background-color: #098f8f;
+    padding: 10px;
+}
+
+table{
+    width: 800px;
+    height: 170px;
+    border-collapse: collapse;
+    background-color: #098f8f;
+    margin-top: 170%;
+    margin-bottom: 5%;
+
+}
+
+td, th{
+    border: 2px solid blue;
+    padding: 15px;
+
 }
