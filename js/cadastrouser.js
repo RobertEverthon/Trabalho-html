@@ -104,7 +104,7 @@ function setErrorFor(input, message) {
 
 function setSuccessFor(input) {
     const formControl = input.parentElement;
-    formControl.className = "form-control success";
+    formControl.className = "form_control success";
 }
 
 function checkEmail(email) {
