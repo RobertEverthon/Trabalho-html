@@ -7,6 +7,7 @@ const lide = document.getElementById("lide");
 const local = document.getElementById("local");
 const ref = document.getElementById("ref");
 const tema = document.getElementById("tema");
+const data_pub = document.getElementById("data_pub");
 
 form.addEventListener("submit", (e) => {
     e.preventDefault();
@@ -86,4 +87,25 @@ function setErrorFor(input, message) {
 function setSuccessFor(input) {
     const formControl = input.parentElement;
     formControl.className = "form_control success";
+}
+
+document.getElementById('submit').onclick = function () {
+    var radios = document.querySelector('input[type=radio][name=perfil]:checked');
+
+    if (!!radios) {
+
+    }
+    else {
+        alert('Selecione um perfil de usuário!');
+    }
+}
+
+function validarData() {
+    var data = document.getElementById("data_pub");
+    if (data.value == '') {
+        setErrorFor(data_pub, "A data é obrigatória.");
+    } else {
+        setSuccessFor(data_pub);
+    }
+    return;
 }

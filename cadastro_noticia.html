@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de notícia</title>
     <link rel="stylesheet" href="CSS/cadastro_noticia.css">
+    <link rel="shortcut icon" href="Imagens/favicon.svg" type="image/x-icon">
 </head>
 
 <body>
@@ -46,8 +47,8 @@
             </div>
 
             <div class="form_control">
-                <label for="data">Data de publicação:</label>
-                <input type="date" name="data" id="data">
+                <label for="data_pub">Data de publicação:</label>
+                <input type="date" name="data_pub" id="data_pub">
                 <small></small>
             </div>
 
@@ -57,26 +58,6 @@
                 <i><img class="img_error" src="Imagens/error-icon.svg" alt=""></i>
                 <i><img class="img_success" src="Imagens/success-icon.svg" alt=""></i>
                 <small></small>
-            </div>
-
-            <div class="parag">
-                <p>Público Alvo:</p>
-            </div>
-            <div class="box_select">
-                <div>
-                    <input type="radio" name="user" id="gamer">
-                    <label for="gamer">Gamer</label>
-                </div>
-                
-                <div>
-                    <input type="radio" name="user" id="user_domestico">
-                    <label for="user_domestico">Usuário doméstico</label>
-                </div>
-
-                <div>
-                    <input type="radio" name="user" id="hacker">
-                    <label for="hacker">Hacker</label>
-                </div>
             </div>
 
             <div class="form_control">
@@ -114,8 +95,29 @@
                 <small></small>
             </div>
 
+            <div class="parag">
+                <p>Público Alvo:</p>
+            </div>
+            <div class="box_select">
+                <div>
+                    <input type="radio" name="perfil" id="gamer" value="gamer">
+                    <label for="gamer">Gamer</label>
+                </div>
+                
+                <div>
+                    <input type="radio" name="perfil" id="user_domestico" value="user_domestico">
+                    <label for="user_domestico">Usuário doméstico</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="perfil" id="hacker" value="hacker">
+                    <label for="hacker">Hacker</label>
+                </div>
+            </div>
+            <br>
+
             <button type="reset">LIMPAR</button>
-            <button type="submit">SALVAR</button>
+            <button id="submit" onblur="validarData()">SALVAR</button>
 
         </form>
 

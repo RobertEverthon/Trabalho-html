@@ -144,3 +144,13 @@ function _cpf(cpf) {
     return true;
 }
 
+document.getElementById('submit').onclick = function () {
+    var radios = document.querySelector('input[type=radio][name=perfil]:checked');
+
+    if (!!radios) {
+        
+    }
+    else {
+        alert('Selecione um perfil de usuário!');
+    }
+}
