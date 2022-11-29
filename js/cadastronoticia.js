@@ -7,7 +7,7 @@ const lide = document.getElementById("lide");
 const local = document.getElementById("local");
 const ref = document.getElementById("ref");
 const tema = document.getElementById("tema");
-const data_pub = document.getElementById("data_pub");
+
 
 form.addEventListener("submit", (e) => {
     e.preventDefault();
@@ -109,3 +109,12 @@ function validarData() {
     }
     return;
 }
+
+function validaTema() {
+    var a = document.getElementById("tema");
+    if (a.options[a.selectedIndex].value == "" ){
+        setErrorFor(tema, "O tema é obrigatório.");
+    } else {
+        setSuccessFor(tema);
+    }
+} 
