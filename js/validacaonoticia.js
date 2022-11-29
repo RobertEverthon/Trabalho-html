@@ -89,17 +89,6 @@ function setSuccessFor(input) {
     formControl.className = "form_control success";
 }
 
-document.getElementById('submit').onclick = function () {
-    var radios = document.querySelector('input[type=radio][name=perfil]:checked');
-
-    if (!!radios) {
-
-    }
-    else {
-        alert('Selecione um perfil de usuário!');
-    }
-}
-
 function validarData() {
     var data = document.getElementById("data_pub");
     if (data.value == '') {
@@ -117,4 +106,15 @@ function validaTema() {
     } else {
         setSuccessFor(tema);
     }
-} 
+}
+
+document.getElementById('submit').onclick = function () {
+    var radios = document.querySelector('input[type=radio][name=perfil]:checked');
+
+    if (!!radios) {
+
+    }
+    else {
+        alert('Selecione um perfil de usuário!');
+    }
+}

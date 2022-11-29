@@ -51,5 +51,4 @@ bot_salvar.addEventListener("click", function (event) {
     tema.textContent = noticia.tema.value;
     ref.textContent = noticia.ref.value;
     perfil.textContent = noticia.perfil.value;
-
 })
