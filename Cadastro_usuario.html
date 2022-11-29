@@ -15,7 +15,7 @@
             <h1>Cadastro de usuário</h1>
         </div>
 
-        <form id="form" class="form">
+        <form id="form" class="form" >
 
             <div class="form_control">
                 <label for="nome">Nome:</label>
@@ -27,7 +27,7 @@
 
             <div class="form_control">
                 <label for="cpf">CPF:</label>
-                <input type="text" name="cpf" id="cpf" placeholder="XXX-XXX-XXX-XX">
+                <input type="text" name="cpf" id="cpf" placeholder="XXX.XXX.XXX-XX" onblur="validarCPF(this)">
                 <i><img class="img_error" src="Imagens/error-icon.svg" alt=""></i>
                 <i><img class="img_success" src="Imagens/success-icon.svg" alt=""></i>
                 <small></small>
@@ -86,17 +86,17 @@
             </div>
             <div class="box_select">
                 <div>
-                    <input type="radio" name="user" id="gamer">
+                    <input type="radio" name="perfil" id="gamer">
                     <label for="gamer">Gamer</label>
                 </div>
                 
                 <div>
-                    <input type="radio" name="user" id="user_domestico">
+                    <input type="radio" name="perfil" id="user_domestico">
                     <label for="user_domestico">Usuário doméstico</label>
                 </div>
 
                 <div>
-                    <input type="radio" name="user" id="hacker">
+                    <input type="radio" name="perfil" id="hacker">
                     <label for="hacker">Hacker</label>
                 </div>
             </div>
