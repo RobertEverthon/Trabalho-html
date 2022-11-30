@@ -7,6 +7,17 @@ bot_salvar.addEventListener("click", function (event) {
     //Trazer o form pra o html
     var noticia = document.querySelector("#form");
 
+    if (validaTitulo() == false){return;}
+    if (validaSubTitulo() == false){return;}
+    if (validaAutor() == false){return;}
+    if (validaData() == false){return;}
+    if (validaDetalhes() == false){return;}
+    if (validaLide() == false){return;}
+    if (validaLocal() == false){return;}
+    if (validaReferencia() == false){return;}
+    if (validaTema() == false){return;}
+    if (validaPerfil() == false){return;}
+
     //criar tr:
     var linha = document.createElement("tr");
 

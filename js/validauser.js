@@ -27,7 +27,7 @@ function validaCPF(cpf) {
         cpf == "77777777777" ||
         cpf == "88888888888" ||
         cpf == "99999999999") {
-        alert("CPF inválido!")
+        alert("Só aceitamos CPFs válidos!")
         return false;
     }
     add = 0;
