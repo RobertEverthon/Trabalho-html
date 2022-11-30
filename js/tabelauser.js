@@ -7,6 +7,16 @@ bot_salvar.addEventListener("click", function (event) {
     //Trazer o form pra o html
     var usuario = document.querySelector("#form");
 
+    if (validaNome() == false){return;}
+    if (validaCPF() == false){return;}
+    if (validaNomeUser() == false){return;}
+    if (validaSenha() == false){return;}
+    if (validaTelefone() == false){return;}
+    if (validaEndereco() == false){return;}
+    if (validaEmailVazio() == false){return;}
+    if (validaEmail() == false){return;}
+    if (validaPerfil() == false){return;}
+
     //criar tr:
     var linha = document.createElement("tr");
 
