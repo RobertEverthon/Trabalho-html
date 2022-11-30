@@ -1,7 +1,6 @@
 function validaTitulo() {
     var titulo = document.getElementById("titulo").value;
     if (titulo.length > 0) {
-        console.log("O título está correto.");
         return true;
     } else {
         alert("Preencha o título!");
@@ -12,7 +11,6 @@ function validaTitulo() {
 function validaSubTitulo() {
     var subtitulo = document.getElementById("subtitulo").value;
     if (subtitulo.length > 0) {
-        console.log("O subtítulo está correto.");
         return true;
     } else {
         alert("Preencha o subtítulo!");
@@ -23,7 +21,6 @@ function validaSubTitulo() {
 function validaAutor() {
     var autor = document.getElementById("autor").value;
     if (autor.length > 0) {
-        console.log("O autor está correto.");
         return true;
     } else {
         alert("Preencha o nome do autor!");
@@ -37,7 +34,6 @@ function validaData() {
         alert("Preencha a data de publicação!");
         return false;
     } else {
-        console.log("O data está correta.");
         return true;
     }
 }
@@ -48,15 +44,24 @@ function validaDetalhes() {
         alert("Preencha os detalhes!");
         return false;
     } else {
-        console.log("Os detalhes estão corretos.");
         return true;
     }
 }
 
+let det = document.getElementById("detalhes");
+det.addEventListener('keyup', function (event) {
+    let trimmed = this.value.trim();
+    if (!trimmed) {
+        this.value = '';
+        return false;
+    } else {
+        return true;
+    }
+});
+
 function validaLide() {
     var lide = document.getElementById("lide").value;
     if (lide.length > 0) {
-        console.log("A lide está correta.");
         return true;
     } else {
         alert("Preencha a lide!");
@@ -67,7 +72,6 @@ function validaLide() {
 function validaLocal() {
     var local = document.getElementById("local").value;
     if (local.length > 0) {
-        console.log("O local está correto.");
         return true;
     } else {
         alert("Preencha o Local!");
@@ -78,7 +82,6 @@ function validaLocal() {
 function validaReferencia() {
     var ref = document.getElementById("ref").value;
     if (ref.length > 0) {
-        console.log("A referência está correta.");
         return true;
     } else {
         alert("Preencha a referência!");
@@ -92,20 +95,16 @@ function validaTema() {
         alert("Preencha o Tema!");
         return false;
     } else {
-        console.log("O tema está correto.");
         return true;
     }
 }
 
 function validaPerfil() {
     if (document.getElementById("gamer").checked) {
-        console.log("O perfil de usuário foi selecionado.");
         return true;
     } else if (document.getElementById("user_domestico").checked) {
-        console.log("O perfil de usuário foi selecionado.");
         return true;
     } else if (document.getElementById("hacker").checked) {
-        console.log("O perfil de usuário foi selecionado.");
         return true;
     } else {
         alert("Selecione um perfil de usuário!")

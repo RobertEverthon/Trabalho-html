@@ -11,6 +11,7 @@ bot_salvar.addEventListener("click", function (event) {
     if (validaCPF() == false){return;}
     if (validaNomeUser() == false){return;}
     if (validaSenha() == false){return;}
+    if (validaConfSenha() == false){return;}
     if (validaTelefone() == false){return;}
     if (validaEndereco() == false){return;}
     if (validaEmailVazio() == false){return;}

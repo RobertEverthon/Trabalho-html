@@ -1,7 +1,6 @@
 function validaNome() {
     var nome = document.getElementById("nome").value;
     if (nome.length > 3) {
-        console.log("O nome está correto.");
         return true;
     } else {
         alert("O preencha seu nome!");
@@ -50,7 +49,6 @@ function validaCPF(cpf) {
         alert("CPF inválido!");
         return false;
     } else {
-        console.log("O CPF está correto.");
         return true;
     }
 }
@@ -58,7 +56,6 @@ function validaCPF(cpf) {
 function validaNomeUser() {
     var nome_user = document.getElementById("nome_user").value;
     if (nome_user.length > 3) {
-        console.log("O nome de usuário está correto.");
         return true;
     } else {
         alert("Preencha seu nome de usuário!");
@@ -69,11 +66,22 @@ function validaNomeUser() {
 function validaSenha() {
     var senha = document.getElementById("senha").value;
     if (senha.length > 7) {
-        console.log("A senha está correta");
         return true;
     } else {
         alert("Senha inválida!");
         return false;
+    }
+}
+
+function validaConfSenha() {
+    var senha = document.getElementById("senha")
+    var conf_senha = document.getElementById("conf_senha");
+
+    if (senha.value != conf_senha.value) {
+        alert("Senhas diferentes!");
+        return false;
+    } else {
+        return true;
     }
 }
 
@@ -106,7 +114,6 @@ function validaTelefone(telefone) {
         alert("O DDD do telefone é inválido!");
         return false;
     } else {
-        console.log("O telefone está correto.");
         return true;
     }
 }
@@ -114,7 +121,6 @@ function validaTelefone(telefone) {
 function validaEndereco() {
     var endereco = document.getElementById("endereco").value;
     if (endereco.length > 5) {
-        console.log("O endereço está correto.");
         return true;
     } else {
         alert("O endereço é inválido");
@@ -128,7 +134,7 @@ function validaEmail() {
         alert("E-mail inválido!");
         return false;
     } else {
-        console.log("O e-mail está correto.")
+        return true;
     }
 }
 
@@ -143,14 +149,11 @@ function validaEmailVazio() {
 }
 
 function validaPerfil() {
-    if (document.getElementById("gamer").checked){
-        console.log("O perfil de usuário foi selecionado.");
+    if (document.getElementById("gamer").checked) {
         return true;
-    } else if (document.getElementById("user_domestico").checked){
-        console.log("O perfil de usuário foi selecionado.");
+    } else if (document.getElementById("user_domestico").checked) {
         return true;
-    } else if (document.getElementById("hacker").checked){
-        console.log("O perfil de usuário foi selecionado.");
+    } else if (document.getElementById("hacker").checked) {
         return true;
     } else {
         alert("Selecione um perfil de usuário!")
