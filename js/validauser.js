@@ -3,7 +3,7 @@ function validaNome() {
     if (nome.length > 3) {
         return true;
     } else {
-        alert("O preencha seu nome!");
+        alert("Preencha seu nome!");
         return false;
     }
 }
